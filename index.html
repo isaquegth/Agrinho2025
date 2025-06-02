@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conexão Campo-Cidade</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🌿 Celebrando a Conexão Campo-Cidade 🏙️</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#temas">Temas</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>Nosso objetivo é destacar como o campo e a cidade são interdependentes. O projeto promove iniciativas que conectam agricultura, consumo consciente e comunidades urbanas, celebrando essa relação vital com sustentabilidade.</p>
+  </section>
+
+  <section id="temas">
+    <h2>Temas em Destaque</h2>
+    <ul>
+      <li><strong>Feiras Orgânicas:</strong>Feiras Orgânicas são eventos onde produtores locais vendem diretamente produtos sem agrotóxicos, 
+        promovendo saúde e sustentabilidade. Elas ajudam na conexão campo-cidade ao fortalecer a economia local, 
+        reduzir a pegada de carbono e educar consumidores urbanos sobre práticas agrícolas sustentáveis, 
+        criando um vínculo direto entre os dois mundos e incentivando o consumo consciente.</li>
+      <li><strong>Hortas Urbanas:</strong> Hortas urbanas são espaços de cultivo de alimentos dentro das cidades, 
+        muitas vezes em terrenos vagos, telhados ou pequenos quintais. Elas ajudam a conectar o campo à cidade ao fornecer alimentos frescos e sustentáveis, 
+        reduzir a dependência de grandes cadeias de distribuição e promover a educação ambiental. Além disso, fortalecem a comunidade, 
+        incentivando o consumo local e consciente dentro do ambiente urbano.</li>
+      <li><strong>Educação Ambiental:</strong> Educação ambiental é o processo de conscientizar e educar as pessoas sobre a importância da preservação do meio ambiente e práticas sustentáveis. 
+        Ela ajuda na conexão campo-cidade ao sensibilizar os cidadãos urbanos para questões como o uso responsável dos recursos naturais, 
+        a preservação das áreas rurais e a adoção de hábitos mais ecológicos. 
+        Essa educação promove um entendimento mais profundo sobre o impacto das ações humanas no planeta e incentiva comportamentos mais responsáveis, 
+        tanto no campo quanto na cidade.</li>
+      <li><strong>Mobilidade Sustentável:</strong> Mobilidade sustentável refere-se ao uso de meios de transporte que minimizam o impacto ambiental, 
+        como bicicletas, transporte público eficiente, 
+        carros elétricos e caminhadas. Ela fortalece a conexão campo-cidade ao reduzir a poluição e melhorar o acesso das pessoas às áreas rurais e urbanas. 
+        Além disso, promove a integração de diferentes modos de transporte, facilita a logística de produtos do campo para a cidade e contribui para uma sociedade mais ecológica e menos dependente de combustíveis fósseis.</li>
+      <li><strong>Economia Solidária:</strong> Economia solidária é um modelo econômico baseado na colaboração, 
+        na troca justa e no apoio mútuo, onde as pessoas se organizam para produzir, consumir e distribuir bens de forma ética e sustentável. 
+        Ela ajuda na conexão campo-cidade ao fortalecer pequenos produtores rurais e urbanos, promovendo o consumo local, 
+        o empoderamento das comunidades e a redução das desigualdades. 
+        Além disso, incentiva práticas econômicas que respeitam o meio ambiente e priorizam o bem-estar coletivo sobre o lucro individual.
+
+
+
+
+
+
+      </li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria">
+      <img src="imagens/feira-campo-cidade.jpg" alt="Feira de produtos do campo conectando com a cidade" />
+      <img src="imagens/horta-urbana.jpg" alt="Horta urbana entre prédios" />
+      <img src="imagens/entrega-produtos.jpg" alt="Entrega de produtos do campo na cidade" />
+      <img src="imagens/agricultor-produtos.jpg" alt="Agricultor com produtos frescos" />
+      <img src="imagens/campo-cidade.jpg" alt="Paisagem que mistura o campo e a cidade" />
+    </div>
+  </section>
+  
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form id="formulario">
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu email" required />
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Conexão Campo-Cidade agrinho. Todos os direitos reservados, projeto desenvolvido por Isaque.</p>
+  </footer>
+
+  <script>
+    document.getElementById('formulario').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('🌱 Obrigado por entrar em contato!');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
